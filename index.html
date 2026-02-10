@@ -6,7 +6,7 @@
     <meta name="description" content="개인 포트폴리오 - 프로젝트와 경험을 기록합니다">
     <title>포트폴리오 | Portfolio</title>
 
-    <!-- CSS 연결 -->
+    <!-- CSS 연결 (폴더 없이) -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Google Fonts -->
@@ -20,7 +20,8 @@
         <div class="nav-container"> 
             <a href="#hero" class="nav-logo">Portfolio</a>
             <div class="nav-profile">
-                <img src="img/profile.jpg" alt="프로필 사진">
+                <!-- img 폴더 없이 업로드 했으면 이렇게 -->
+                <img src="profile.jpg" alt="프로필 사진">
             </div>
             <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
                 <span></span>
@@ -53,7 +54,7 @@
         </div>
     </section>
 
-    <!-- 소개 섹션 -->
+    <!-- 기본 인적사항 -->
     <section id="about1" class="section about1">
         <div class="about1-content">
             <div class="about1-text">
@@ -92,25 +93,22 @@
         </div>
     </section>
 
-    <!-- 자기소개 섹션 -->
+    <!-- 자기소개 -->
     <section id="about" class="section about">
         <div class="container">
             <h2 class="section-title">자기소개</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>안녕하세요 타노스입니다. 먼저 제 포트폴리오를 읽어주셔서 매우 감사드립니다.  
-                    그럼 이제 저를 소개하겠습니다. 제 이름은 황승빈이며, 현재 대전에 거주하고 있는 한남대학교 회계학과 4학년입니다. 
-                    저는 평소 해외 축구 시청, 음악 감상, 운동을 즐기며, 최근에는 주식과 뉴스에 관심을 갖고 있습니다.
-                    현재는 방학 기간 동안 세무법인 청년들에서 약 2개월간 인턴으로 근무하고 있으며, 세무 및 기장 보조 업무를 수행하고 있습니다. 
-                    매출 자료를 조회해 전표에 입력하고, 급여 자료 작성 및 고객 안내문 발송 등 실무 전반을 경험하며 회계와 세무가 실제 현장에서 어떻게 적용되는지 배우고 있습니다. 
-                    제 삶의 목표는 하루에 한 번이라도 스스로를 만족시킬 수 있는 선택을 하며, 부끄럽지 않은 사람으로 성장하는 것입니다. 
-                    작은 경험 하나도 소중히 여기며 꾸준히 발전하는 사람이 되고자 합니다.</p>
+                    <p>안녕하세요 타노스입니다. 먼저 제 포트폴리오를 읽어주셔서 감사드립니다.  
+                    제 이름은 황승빈이며, 현재 대전에 거주하고 있는 한남대학교 회계학과 4학년입니다. 
+                    평소 해외 축구 시청, 음악 감상, 운동을 즐기며, 최근에는 주식과 뉴스에도 관심을 갖고 있습니다.
+                    방학 기간 동안 세무법인 청년들에서 2개월간 인턴으로 근무하며 세무 및 기장 보조 업무를 수행했습니다.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 프로젝트 섹션 -->
+    <!-- 프로젝트 -->
     <section id="projects" class="section projects">
         <div class="container">
             <h2 class="section-title">자세히</h2>
@@ -120,8 +118,7 @@
                         <div class="project-placeholder">성격의 장단점</div>
                     </div>
                     <div class="project-info">
-                        <p>저는 사람들과 대화하는 것을 좋아하며 잘 웃고 낯을 잘 가리지 않는 성격입니다. 
-                        또한 문제를 포기하지 않고 답을 찾아내는 것을 즐깁니다. 초반에는 질문도 많이 하고 꼼꼼한 편입니다.</p>
+                        <p>저는 사람들과 대화하는 것을 좋아하며 잘 웃고 낯을 잘 가리지 않습니다. 문제를 포기하지 않고 답을 찾아내는 것을 즐깁니다.</p>
                     </div>
                 </article>
                 <article class="project-card">
@@ -129,7 +126,7 @@
                         <div class="project-placeholder">학과 및 인턴 지원동기</div>
                     </div>
                     <div class="project-info">
-                        <p>과거에 저는 알바를 하며 경험을 쌓았고, 회계학과를 선택하게 된 이유도 성격과 관련이 있습니다.</p>
+                        <p>과거 알바 경험과 회계학과 선택 이유에 대해 설명합니다.</p>
                     </div>
                 </article>
                 <article class="project-card">
@@ -137,19 +134,17 @@
                         <div class="project-placeholder">느낀점 및 포부</div>
                     </div>
                     <div class="project-info">
-                        <p>인턴 경험을 통해 업무를 배우고, 앞으로 자격증 취득과 독서를 병행하며 성장할 계획입니다.</p>
+                        <p>인턴 경험을 통해 성장 계획을 세우고 있습니다.</p>
                     </div>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- 키워드/자격 섹션 -->
+    <!-- 키워드/자격 -->
     <section id="growth-intro" class="section growth">
         <h2 class="section-title">자격·학습 현황 및 핵심 역량 키워드</h2>
-        <p class="growth-intro">
-            현재 실무 이해를 바탕으로 회계·세무 분야의 전문성을 높이기 위해 자격증 취득과 자기계발을 꾸준히 이어가고 있습니다.
-        </p>
+        <p class="growth-intro">회계·세무 전문성을 위해 자격증 취득과 자기계발을 이어가고 있습니다.</p>
         <div class="growth-grid">
             <div class="growth-card">
                 <h3>자격증 학습 중</h3>
@@ -177,14 +172,14 @@
         </div>
     </section>
 
-    <!-- 연락처 섹션 -->
+    <!-- 연락처 -->
     <section id="contact" class="section contact">
         <div class="container">
             <h2 class="section-title">연락처 및 전하고 싶은 말</h2>
             <div class="contact-content">
                 <p>I'll be an inevitable person. Thank you</p>
                 <p>여러분들께 필연적인 사람이 되겠습니다. 감사합니다.</p>
-                <p>저에 대해 더 궁금하신게 있으시다면 언제든 연락주세요.</p>
+                <p>더 궁금하신 점은 언제든 연락주세요.</p>
                 <div class="contact-links">
                     <a href="tel:01012345678" class="contact-link">010-1234-5678</a>
                     <a href="mailto:your@email.com" class="contact-link">hsbin0828@naver.com</a>
